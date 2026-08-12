@@ -1,0 +1,392 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#17365D">
+<title>船舶法 重要条文・原文＋現代語</title>
+<style>
+:root{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;color:#172033;background:#f3f6fa}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0}.wrap{max-width:880px;margin:auto;padding:calc(10px + env(safe-area-inset-top)) 14px 50px}
+.topnav{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px}.topnav a{text-decoration:none;background:#eef2f7;color:#344054;border-radius:11px;padding:9px 12px;font-weight:800}
+h1{font-size:25px;margin:8px 0 4px}.sub{color:#667085;line-height:1.65;margin:0 0 9px}
+.sticky{position:sticky;top:0;z-index:40;background:rgba(243,246,250,.97);backdrop-filter:blur(10px);padding:8px 0 9px;border-bottom:1px solid #dfe5ec}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:7px}.row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:7px;margin-top:7px}
+.sticky button{border:0;border-radius:10px;padding:9px 7px;font-weight:800}.dark{background:#17365D;color:#fff}.light{background:#e8eef8;color:#17365D}.mode{background:#fff;color:#475467;border:1px solid #d8dee8!important}.mode.on{background:#1769e0;color:#fff}
+.guide{background:#fff;border-left:4px solid #1769e0;border-radius:10px;padding:10px 12px;color:#475467;font-size:13px;line-height:1.65;margin:10px 0}
+.jump{display:flex;gap:7px;overflow-x:auto;margin:10px 0;padding-bottom:3px}.jump a{white-space:nowrap;text-decoration:none;background:#fff;color:#475467;border-radius:999px;padding:7px 10px;font-size:12px;font-weight:700}
+.card{scroll-margin-top:130px;background:#fff;border-radius:18px;padding:17px;margin:13px 0;box-shadow:0 2px 14px #0000000d}.meta{display:flex;justify-content:space-between;gap:8px;color:#667085;font-size:13px;font-weight:700}.tag{background:#fff4e5;color:#9a5b00;border-radius:999px;padding:4px 8px;font-size:11px;font-weight:800;white-space:nowrap}.card h2{font-size:18px;margin:8px 0 11px}
+.version{border-radius:12px;padding:12px;margin:8px 0}.oldv{background:#fbf8f1}.modernv{background:#f5f8fc}.label{font-size:12px;font-weight:900;color:#667085;margin-bottom:5px}.text{font-size:16.5px;line-height:2.05}
+.kw{display:inline-block;min-width:50px;padding:1px 5px;margin:0 1px;border-radius:5px;border-bottom:2px solid #1769e0;background:#eaf2ff;color:#1769e0;font-weight:800;cursor:pointer;user-select:none}.kw.hiddenword{color:transparent;background:#edf1f5;border-bottom-color:#98a2b3;position:relative}.kw.hiddenword::after{content:"＿＿＿＿";color:#667085;position:absolute;left:50%;transform:translateX(-50%);white-space:nowrap}.kw.redword{color:#c62828;background:#fff0f0;border-bottom-color:#c62828}
+.below{display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin-top:10px}.xref{text-decoration:none;background:#eef4ff;color:#1769e0;border-radius:9px;padding:7px 9px;font-size:12px;font-weight:800}.tip{color:#667085;font-size:12px;line-height:1.55}
+.footer{color:#667085;font-size:12px;line-height:1.7;background:#fff;border-radius:13px;padding:13px;margin-top:20px}
+body.show-old .modernv{display:none} body.show-modern .oldv{display:none}
+@media(max-width:520px){.text{font-size:16px}.row3{grid-template-columns:1fr 1fr 1fr}}
+</style></head><body class="show-both"><div class="wrap">
+<div class="topnav"><a href="index.html">← 20科目ホーム</a><a href="ship.html">過去問準拠へ</a></div>
+<h1>船舶法　重要条文・キーワード学習</h1>
+<p class="sub">明治期の文語体・歴史的表記に慣れるための「法令原文」と、意味をつかむ「現代語訳」を並行して学習します。施行細則も関連条文と相互リンクしています。</p>
+<div class="sticky">
+ <div class="row"><button class="dark" onclick="allHidden()">すべて空欄</button><button class="light" onclick="allVisible()">すべて表示</button></div>
+ <div class="row3"><button id="mOld" class="mode" onclick="setMode('old')">原文</button><button id="mBoth" class="mode on" onclick="setMode('both')">両方</button><button id="mModern" class="mode" onclick="setMode('modern')">現代語</button></div>
+</div>
+<div class="guide">空欄をタップ → 通常表示 → 再タップ → 赤字表示 → 再タップ → 空欄。上部の「原文／両方／現代語」で表示形式を切り替えられます。</div>
+<div class="jump"><a href="#law1">国籍</a><a href="#law4">測度</a><a href="#law5">登録</a><a href="#law5_2">検認</a><a href="#law7">標示</a><a href="#law11">書換え</a><a href="#law14">抹消</a><a href="#law17">仮証書</a><a href="#law20">適用除外</a><a href="#reg1">施行細則</a></div>
+
+<section class="card" id="law1">
+ <div class="meta"><span>船舶法 第1条</span><span class="tag">基本骨格</span></div>
+ <h2>日本船舶の資格</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text">左ノ船舶ヲ以テ<span class="kw hiddenword">日本船舶</span>トス。日本ノ官庁又ハ公署ノ所有ニ属スル船舶、日本国民ノ所有ニ属スル船舶、其ノ他法令ニ定ムル要件ヲ具フル船舶。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text">船舶法が定める要件を満たす船舶が「<span class="kw hiddenword">日本船舶</span>」となります。試験では、<span class="kw hiddenword">日本船舶</span>となる主体・所有関係の要件が問われます。</div>
+ </div>
+ <div class="below"><span class="tip">日本船舶の国籍要件の出発点。</span></div>
+</section>
+<section class="card" id="law2">
+ <div class="meta"><span>第2条</span><span class="tag">基本骨格</span></div>
+ <h2>日本船舶の特権</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text"><span class="kw hiddenword">日本船舶</span>ニ非サレハ<span class="kw hiddenword">日本ノ国旗</span>ヲ掲ケ又ハ<span class="kw hiddenword">日本船舶</span>ノ<span class="kw hiddenword">名称</span>ヲ以テ航行スルコトヲ得ス。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text"><span class="kw hiddenword">日本船舶</span>でなければ、<span class="kw hiddenword">日本国旗</span>を掲げたり、<span class="kw hiddenword">日本船舶</span>として航行したりすることはできません。</div>
+ </div>
+ <div class="below"><span class="tip">国籍と国旗掲揚の結び付きを理解。</span></div>
+</section>
+<section class="card" id="law3">
+ <div class="meta"><span>第3条</span><span class="tag">重要A</span></div>
+ <h2>不開港場への寄港等</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text"><span class="kw hiddenword">日本船舶</span>ニ非サレハ<span class="kw hiddenword">不開港場</span>ニ寄港シ又ハ日本各港ノ間ニ於テ物品若ハ旅客ノ運送ヲ為スコトヲ得ス。但法律若ハ条約ニ別段ノ定アルトキ又ハ海難若ハ捕獲ヲ避ケントスルトキハ此ノ限ニ在ラス。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text">原則として、<span class="kw hiddenword">日本船舶</span>でなければ<span class="kw hiddenword">不開港場</span>への寄港や日本各港間の物品・旅客運送はできません。ただし、法律・条約の別段の定めや海難等の例外があります。</div>
+ </div>
+ <div class="below"><span class="tip">原則と例外の正誤問題向き。</span></div>
+</section>
+<section class="card" id="law4">
+ <div class="meta"><span>第4条</span><span class="tag">最重要S</span></div>
+ <h2>総トン数の測度</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text"><span class="kw hiddenword">日本船舶</span>ノ所有者ハ日本ニ<span class="kw hiddenword">船籍港</span>ヲ定メ其ノ<span class="kw hiddenword">船籍港</span>ヲ管轄スル<span class="kw hiddenword">管海官庁</span>ニ船舶ノ<span class="kw hiddenword">総トン数</span>ノ測度ヲ申請スルコトヲ要ス。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text"><span class="kw hiddenword">日本船舶</span>の所有者は日本国内に<span class="kw hiddenword">船籍港</span>を定め、その<span class="kw hiddenword">船籍港</span>を管轄する<span class="kw hiddenword">管海官庁</span>に<span class="kw hiddenword">総トン数</span>の測度を申請します。</div>
+ </div>
+ <div class="below"><a class="xref" href="#reg2">↔ 関連する施行細則へ</a><span class="tip">令和7年口述で申請先が直接出題。</span></div>
+</section>
+<section class="card" id="law5">
+ <div class="meta"><span>第5条</span><span class="tag">最重要S</span></div>
+ <h2>登記・登録・船舶国籍証書</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text"><span class="kw hiddenword">日本船舶</span>ノ所有者ハ<span class="kw hiddenword">登記</span>ヲ為シタル後<span class="kw hiddenword">船籍港</span>ヲ管轄スル<span class="kw hiddenword">管海官庁</span>ニ備ヘタル<span class="kw hiddenword">船舶原簿</span>ニ<span class="kw hiddenword">登録</span>ヲ為スコトヲ要ス。<span class="kw hiddenword">登録</span>ヲ為シタルトキハ<span class="kw hiddenword">船舶国籍証書</span>ノ交付ヲ受ク。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text"><span class="kw hiddenword">日本船舶</span>の所有者は、<span class="kw hiddenword">登記</span>後に<span class="kw hiddenword">船籍港</span>を管轄する<span class="kw hiddenword">管海官庁</span>の<span class="kw hiddenword">船舶原簿</span>へ<span class="kw hiddenword">登録</span>し、<span class="kw hiddenword">登録</span>後に<span class="kw hiddenword">船舶国籍証書</span>の交付を受けます。</div>
+ </div>
+ <div class="below"><a class="xref" href="#reg13">↔ 関連する施行細則へ</a><span class="tip">登記→登録→国籍証書の順序。</span></div>
+</section>
+<section class="card" id="law5_2">
+ <div class="meta"><span>第5条ノ2</span><span class="tag">最重要S</span></div>
+ <h2>船舶国籍証書の検認</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text"><span class="kw hiddenword">船舶国籍証書</span>ヲ受有スル船舶ノ所有者ハ命令ノ定ムル期日ニ<span class="kw hiddenword">船舶国籍証書</span>ヲ其ノ船舶ノ<span class="kw hiddenword">船籍港</span>ヲ管轄スル<span class="kw hiddenword">管海官庁</span>ニ提出シ<span class="kw hiddenword">検認</span>ヲ受クルコトヲ要ス。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text"><span class="kw hiddenword">船舶国籍証書</span>を持つ船舶の所有者は、所定の期日に国籍証書を<span class="kw hiddenword">船籍港</span>管轄の<span class="kw hiddenword">管海官庁</span>へ提出し、<span class="kw hiddenword">検認</span>を受けます。</div>
+ </div>
+ <div class="below"><a class="xref" href="#reg30_6">↔ 関連する施行細則へ</a><span class="tip">令和7年筆記・口述で検認関連が出題。</span></div>
+</section>
+<section class="card" id="law6">
+ <div class="meta"><span>第6条</span><span class="tag">最重要S</span></div>
+ <h2>国旗掲揚・航行の条件</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text"><span class="kw hiddenword">日本船舶</span>ハ法令ノ定ムル所ニ従ヒ<span class="kw hiddenword">船舶国籍証書</span>又ハ<span class="kw hiddenword">仮<span class="kw hiddenword">船舶国籍証書</span></span>ノ交付ヲ受ケタル後ニ非サレハ<span class="kw hiddenword">日本ノ国旗</span>ヲ掲ケ又ハ航行スルコトヲ得ス。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text"><span class="kw hiddenword">日本船舶</span>は、<span class="kw hiddenword">船舶国籍証書</span>または<span class="kw hiddenword">仮<span class="kw hiddenword">船舶国籍証書</span></span>の交付後でなければ、<span class="kw hiddenword">日本国旗</span>を掲げたり航行したりできません。</div>
+ </div>
+ <div class="below"><span class="tip">令和6年口述で直接出題。</span></div>
+</section>
+<section class="card" id="law7">
+ <div class="meta"><span>第7条</span><span class="tag">最重要S</span></div>
+ <h2>船体の標示</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text"><span class="kw hiddenword">日本船舶</span>ノ所有者ハ法令ノ定ムル所ニ従ヒ船舶ニ其ノ<span class="kw hiddenword">名称</span>、<span class="kw hiddenword">船籍港</span>、<span class="kw hiddenword">番号</span>、<span class="kw hiddenword">総トン数</span>、<span class="kw hiddenword">喫水ノ尺度</span>其ノ他ノ事項ヲ標示スルコトヲ要ス。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text"><span class="kw hiddenword">日本船舶</span>の所有者は、<span class="kw hiddenword">船名</span>・<span class="kw hiddenword">船籍港</span>・<span class="kw hiddenword">船舶番号</span>・<span class="kw hiddenword">総トン数</span>・<span class="kw hiddenword">喫水の尺度</span>などを、法令所定の方法で船体に表示します。</div>
+ </div>
+ <div class="below"><a class="xref" href="#reg44">↔ 関連する施行細則へ</a><span class="tip">令和7年口述で4項目列挙が出題。</span></div>
+</section>
+<section class="card" id="law9">
+ <div class="meta"><span>第9条</span><span class="tag">最重要S</span></div>
+ <h2>総トン数の改測</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text">船舶ノ修繕其ノ他ノ事由ニ因リ其ノ<span class="kw hiddenword">総トン数</span>ニ変更ヲ生シタルトキハ船舶所有者ハ<span class="kw hiddenword">船籍港</span>ヲ管轄スル<span class="kw hiddenword">管海官庁</span>ニ<span class="kw hiddenword">総トン数</span>ノ改測ヲ申請スルコトヲ要ス。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text">修繕などにより<span class="kw hiddenword">総トン数</span>が変わった場合、船舶所有者は<span class="kw hiddenword">船籍港</span>を管轄する<span class="kw hiddenword">管海官庁</span>に<span class="kw hiddenword">総トン数</span>の改測を申請します。</div>
+ </div>
+ <div class="below"><span class="tip">令和7年口述。</span></div>
+</section>
+<section class="card" id="law10">
+ <div class="meta"><span>第10条</span><span class="tag">最重要S</span></div>
+ <h2>登録事項の変更</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text"><span class="kw hiddenword">登録</span>シタル事項ニ変更ヲ生シタルトキハ船舶所有者ハ其ノ事実ヲ知リタル日ヨリ<span class="kw hiddenword">二週間</span>内ニ変更ノ<span class="kw hiddenword">登録</span>ヲ為スコトヲ要ス。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text"><span class="kw hiddenword">登録</span>事項に変更が生じた場合、船舶所有者はその事実を知った日から<span class="kw hiddenword">2週間</span>以内に変更<span class="kw hiddenword">登録</span>を行います。</div>
+ </div>
+ <div class="below"><span class="tip">二週間の期限は筆記で狙われやすい。</span></div>
+</section>
+<section class="card" id="law11">
+ <div class="meta"><span>第11条</span><span class="tag">最重要S</span></div>
+ <h2>船舶国籍証書の書換え</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text"><span class="kw hiddenword">船舶国籍証書</span>ノ記載事項ニ変更ヲ生シタルトキ又ハ<span class="kw hiddenword">船舶国籍証書</span>ヲ<span class="kw hiddenword">毀損</span>シタルトキハ船舶所有者ハ其ノ事実ヲ知リタル日ヨリ<span class="kw hiddenword">二週間</span>内ニ其ノ書換ヲ申請スルコトヲ要ス。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text"><span class="kw hiddenword">船舶国籍証書</span>の記載事項が変わった場合、または国籍証書を<span class="kw hiddenword">毀損</span>した場合は、原則としてその事実を知った日から<span class="kw hiddenword">2週間</span>以内に書換えを申請します。</div>
+ </div>
+ <div class="below"><span class="tip">令和7年筆記・口述。</span></div>
+</section>
+<section class="card" id="law12">
+ <div class="meta"><span>第12条</span><span class="tag">最重要S</span></div>
+ <h2>船舶国籍証書の再交付</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text"><span class="kw hiddenword">船舶国籍証書</span>ヲ<span class="kw hiddenword">滅失</span>シタルトキハ船舶所有者ハ<span class="kw hiddenword">遅滞ナク</span>其ノ再交付ヲ申請スルコトヲ要ス。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text"><span class="kw hiddenword">船舶国籍証書</span>を<span class="kw hiddenword">滅失</span>した場合は、<span class="kw hiddenword">遅滞なく</span>再交付を申請します。</div>
+ </div>
+ <div class="below"><span class="tip">書換え（変更・毀損）と再交付（滅失）を区別。</span></div>
+</section>
+<section class="card" id="law13">
+ <div class="meta"><span>第13条</span><span class="tag">重要A</span></div>
+ <h2>船舶国籍証書の返還</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text"><span class="kw hiddenword">船舶国籍証書</span>ノ書換又ハ再交付ヲ受ケタルトキハ旧証書ヲ<span class="kw hiddenword">遅滞ナク</span>返還スルコトヲ要ス。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text">書換えまたは再交付を受けた場合、旧証書は<span class="kw hiddenword">遅滞なく</span>返還します。</div>
+ </div>
+ <div class="below"><span class="tip">旧証書を保存するという誤肢に注意。</span></div>
+</section>
+<section class="card" id="law14">
+ <div class="meta"><span>第14条</span><span class="tag">最重要S</span></div>
+ <h2>抹消登録</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text"><span class="kw hiddenword">日本船舶</span>カ<span class="kw hiddenword">滅失</span>若ハ沈没シタルトキ、解撤セラレタルトキ、<span class="kw hiddenword">日本船舶</span>タル資格ヲ喪失シタルトキ又ハ<span class="kw hiddenword">三月間</span>其ノ存否不明ナルトキハ船舶所有者ハ其ノ事実ヲ知リタル日ヨリ<span class="kw hiddenword">二週間</span>内ニ抹消ノ<span class="kw hiddenword">登録</span>ヲ為スコトヲ要ス。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text">船舶の<span class="kw hiddenword">滅失</span>・沈没・解撤・<span class="kw hiddenword">日本船舶</span>資格喪失、または<span class="kw hiddenword">3か月</span>間存否不明の場合、所有者は原則として知った日から<span class="kw hiddenword">2週間</span>以内に抹消<span class="kw hiddenword">登録</span>を行います。</div>
+ </div>
+ <div class="below"><span class="tip">令和7年口述で「三ヶ月」が直接出題。</span></div>
+</section>
+<section class="card" id="law15">
+ <div class="meta"><span>第15条</span><span class="tag">重要A</span></div>
+ <h2>仮船舶国籍証書―外国で取得した船舶</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text">外国ニ於テ船舶ヲ取得シタル場合ニ於テ其ノ取得地ヲ管轄スル領事官ハ申請ニ因リ<span class="kw hiddenword">仮<span class="kw hiddenword">船舶国籍証書</span></span>ヲ交付スルコトヲ得。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text">外国で船舶を取得した場合など、一定の場合に領事官等から<span class="kw hiddenword">仮<span class="kw hiddenword">船舶国籍証書</span></span>の交付を受ける制度があります。</div>
+ </div>
+ <div class="below"><a class="xref" href="#reg32">↔ 関連する施行細則へ</a><span class="tip">仮国籍証書の場面を理解。</span></div>
+</section>
+<section class="card" id="law16">
+ <div class="meta"><span>第16条</span><span class="tag">重要A</span></div>
+ <h2>仮船舶国籍証書―証書滅失等</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text">外国ニ於テ<span class="kw hiddenword">船舶国籍証書</span>ヲ<span class="kw hiddenword">滅失</span>若ハ<span class="kw hiddenword">毀損</span>シタル場合其ノ他法令ニ定ムル場合ニハ<span class="kw hiddenword">仮<span class="kw hiddenword">船舶国籍証書</span></span>ノ交付ヲ受クルコトヲ得。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text">外国において国籍証書を<span class="kw hiddenword">滅失</span>・<span class="kw hiddenword">毀損</span>した場合などにも、<span class="kw hiddenword">仮<span class="kw hiddenword">船舶国籍証書</span></span>の交付制度があります。</div>
+ </div>
+ <div class="below"><a class="xref" href="#reg32">↔ 関連する施行細則へ</a><span class="tip">国籍証書と仮証書の関係。</span></div>
+</section>
+<section class="card" id="law17">
+ <div class="meta"><span>第17条</span><span class="tag">最重要S</span></div>
+ <h2>仮船舶国籍証書の有効期間</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text"><span class="kw hiddenword">仮<span class="kw hiddenword">船舶国籍証書</span></span>ノ有効期間ハ日本ニ於テ交付スルモノニ在リテハ<span class="kw hiddenword">六月</span>、外国ニ於テ交付スルモノニ在リテハ<span class="kw hiddenword">一年</span>ヲ超ユルコトヲ得ス。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text"><span class="kw hiddenword">仮<span class="kw hiddenword">船舶国籍証書</span></span>の有効期間の上限は、日本で交付するものが<span class="kw hiddenword">6か月</span>、外国で交付するものが<span class="kw hiddenword">1年</span>です。</div>
+ </div>
+ <div class="below"><span class="tip">国内6か月・外国1年。</span></div>
+</section>
+<section class="card" id="law18">
+ <div class="meta"><span>第18条</span><span class="tag">重要A</span></div>
+ <h2>仮船舶国籍証書の失効</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text">船舶カ<span class="kw hiddenword">船籍港</span>ニ到著シタルトキ其ノ他法令ニ定ムル事由ヲ生シタルトキハ<span class="kw hiddenword">仮<span class="kw hiddenword">船舶国籍証書</span></span>ハ其ノ効力ヲ失フ。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text">船舶が<span class="kw hiddenword">船籍港</span>へ到着した場合など、所定の事由が生じると<span class="kw hiddenword">仮<span class="kw hiddenword">船舶国籍証書</span></span>は効力を失います。</div>
+ </div>
+ <div class="below"><span class="tip">有効期間だけでなく失効事由にも注意。</span></div>
+</section>
+<section class="card" id="law20">
+ <div class="meta"><span>第20条</span><span class="tag">最重要S</span></div>
+ <h2>小型船舶等への適用除外</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text">第二条乃至第五条、第七条乃至第九条、第十一条乃至第十九条等ノ規定ハ<span class="kw hiddenword"><span class="kw hiddenword">総トン数</span>二十トン未満</span>ノ船舶及<span class="kw hiddenword">端舟</span>其ノ他命令ニ定ムル船舶ニ之ヲ適用セス。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text"><span class="kw hiddenword">総トン数</span><span class="kw hiddenword">20トン未満</span>の船舶や<span class="kw hiddenword">端舟</span>など一定の船舶には、<span class="kw hiddenword">総トン数</span>測度・<span class="kw hiddenword">登記</span>・<span class="kw hiddenword">登録</span>等に関する規定の一部が適用されません。ただし第1条から第3条の国籍関係は別です。</div>
+ </div>
+ <div class="below"><span class="tip">令和7年口述で直接出題。</span></div>
+</section>
+<section class="card" id="reg1">
+ <div class="meta"><span>船舶法施行細則 第1条</span><span class="tag">規則・最重要S</span></div>
+ <h2>船舶の種類</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text">船舶ノ種類ハ左ノ二種トス。一　<span class="kw hiddenword">汽船</span>　<span class="kw hiddenword">機械力</span>ヲ以テ運航スル装置ヲ有スル船舶。二　<span class="kw hiddenword">帆船</span>　<span class="kw hiddenword">主トシテ帆</span>ヲ以テ運航スル装置ヲ有スル船舶。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text">施行細則上の船舶の種類は「<span class="kw hiddenword">汽船</span>」と「<span class="kw hiddenword">帆船</span>」の2種類です。<span class="kw hiddenword">汽船</span>は<span class="kw hiddenword">機械力</span>で運航する装置を有する船舶、<span class="kw hiddenword">帆船</span>は<span class="kw hiddenword">主として帆</span>で運航する装置を有する船舶です。</div>
+ </div>
+ <div class="below"><a class="xref" href="#law4">↔ 関連する法律条文へ</a><span class="tip">令和7年口述でそのまま出題。</span></div>
+</section>
+<section class="card" id="reg2">
+ <div class="meta"><span>施行細則 第2条等</span><span class="tag">規則・重要A</span></div>
+ <h2>船籍港の要件</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text"><span class="kw hiddenword">船籍港</span>ト為スヘキ市町村ハ船舶ノ航行シ得ヘキ<span class="kw hiddenword">水面</span>ニ接シタルモノニ限ル。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text"><span class="kw hiddenword">船籍港</span>とする市町村は、その船舶が航行できる<span class="kw hiddenword">水面</span>に接している必要があります。</div>
+ </div>
+ <div class="below"><a class="xref" href="#law4">↔ 関連する法律条文へ</a><span class="tip">令和6年・7年筆記の周辺論点。</span></div>
+</section>
+<section class="card" id="reg12_2">
+ <div class="meta"><span>施行細則 第12条ノ2</span><span class="tag">規則・最重要S</span></div>
+ <h2>総トン数測度後の交付書類</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text"><span class="kw hiddenword">管海官庁</span><span class="kw hiddenword">総トン数</span>ノ測度ヲ了シタルトキハ申請者ニ<span class="kw hiddenword">船舶件名書ノ謄本</span>及<span class="kw hiddenword"><span class="kw hiddenword">総トン数</span>計算書ノ謄本</span>ヲ交付ス。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text"><span class="kw hiddenword">管海官庁</span>が<span class="kw hiddenword">総トン数</span>の測度を終えたときは、申請者へ<span class="kw hiddenword">船舶件名書の謄本</span>と<span class="kw hiddenword"><span class="kw hiddenword">総トン数</span>計算書の謄本</span>を交付します。</div>
+ </div>
+ <div class="below"><a class="xref" href="#law4">↔ 関連する法律条文へ</a><span class="tip">令和7年口述で2つとも出題。</span></div>
+</section>
+<section class="card" id="reg30_6">
+ <div class="meta"><span>施行細則 第30条ノ6</span><span class="tag">規則・最重要S</span></div>
+ <h2>検認提出期日の延期</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text">船舶カ<span class="kw hiddenword">外国ニ在ル場合</span>其ノ他已ムコトヲ得サル事由ニ因リ<span class="kw hiddenword">船舶国籍証書</span>ノ提出著シク困難ナルトキハ所定ノ手続ニ依リ提出期日ノ延期ヲ受クルコトヲ得。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text">船舶が<span class="kw hiddenword">外国にある場合</span>、その他やむを得ない事情で国籍証書の提出が著しく困難な場合には、<span class="kw hiddenword">検認</span>の提出期日の延期が認められることがあります。</div>
+ </div>
+ <div class="below"><a class="xref" href="#law5_2">↔ 関連する法律条文へ</a><span class="tip">令和7年口述。</span></div>
+</section>
+<section class="card" id="reg32">
+ <div class="meta"><span>施行細則 第32条等</span><span class="tag">規則・最重要S</span></div>
+ <h2>仮船舶国籍証書の申請書類</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text"><span class="kw hiddenword">仮<span class="kw hiddenword">船舶国籍証書</span></span>ノ交付ヲ申請スルニハ船舶<span class="kw hiddenword">所有権</span>ノ取得ヲ証スル書面其ノ他命令ニ定ムル書類ヲ添付スルコトヲ要ス。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text"><span class="kw hiddenword">仮<span class="kw hiddenword">船舶国籍証書</span></span>の交付申請では、<span class="kw hiddenword">所有権</span>の取得を証明する書面など、所定の書類を添付します。</div>
+ </div>
+ <div class="below"><a class="xref" href="#law15">↔ 関連する法律条文へ</a><span class="tip">令和7年筆記で「所有権」が出題。</span></div>
+</section>
+<section class="card" id="reg44">
+ <div class="meta"><span>施行細則 第44条</span><span class="tag">規則・最重要S</span></div>
+ <h2>船舶の標示</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text">船名ハ<span class="kw hiddenword">船首両舷</span>ノ外部及<span class="kw hiddenword">船尾外部</span>ノ見易キ場所ニ之ヲ標示ス。船名其ノ他ノ文字ノ大サハ原則トシテ<span class="kw hiddenword">十センチメートル以上</span>トス。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text"><span class="kw hiddenword">船名</span>は<span class="kw hiddenword">船首両舷</span>の外部と、<span class="kw hiddenword">船尾外部</span>の見やすい場所に表示します。文字の大きさは原則<span class="kw hiddenword">10センチメートル以上</span>です。</div>
+ </div>
+ <div class="below"><a class="xref" href="#law7">↔ 関連する法律条文へ</a><span class="tip">令和7年筆記・口述。</span></div>
+</section>
+<section class="card" id="reg47_2">
+ <div class="meta"><span>施行細則 第47条ノ2</span><span class="tag">規則・最重要S</span></div>
+ <h2>錯誤・遺漏の訂正</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text">船舶所有者ニ於テ船舶件名書ニ記載シタル事項、<span class="kw hiddenword">登録</span>シタル事項又ハ<span class="kw hiddenword">船舶国籍証書</span>若ハ<span class="kw hiddenword">仮<span class="kw hiddenword">船舶国籍証書</span></span>ニ記載シタル事項ニ<span class="kw hiddenword">錯誤</span>若ハ<span class="kw hiddenword">遺漏</span>アルコトヲ発見シタルトキハ訂正ヲ申請スルコトヲ要ス。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text">船舶件名書、<span class="kw hiddenword">登録</span>事項、<span class="kw hiddenword">船舶国籍証書</span>または<span class="kw hiddenword">仮<span class="kw hiddenword">船舶国籍証書</span></span>の記載に<span class="kw hiddenword">錯誤</span>・<span class="kw hiddenword">遺漏</span>を発見した場合は、訂正申請を行います。</div>
+ </div>
+ <div class="below"><a class="xref" href="#law5">↔ 関連する法律条文へ</a><span class="tip">令和7年口述で3項目列挙。</span></div>
+</section>
+<section class="card" id="reg51">
+ <div class="meta"><span>施行細則 第51条</span><span class="tag">規則・重要A</span></div>
+ <h2>手数料の納付</h2>
+ <div class="version oldv">
+   <div class="label">法令原文（文語体・歴史的表記）</div>
+   <div class="text">国内ノ<span class="kw hiddenword">管海官庁</span>ニ於テ<span class="kw hiddenword">仮<span class="kw hiddenword">船舶国籍証書</span></span>ノ交付ヲ申請スル場合ノ手数料ハ手数料納付書ニ手数料額ニ相当スル<span class="kw hiddenword">収入印紙</span>ヲ貼付シ納付ス。</div>
+ </div>
+ <div class="version modernv">
+   <div class="label">現代語訳</div>
+   <div class="text">国内の<span class="kw hiddenword">管海官庁</span>窓口で<span class="kw hiddenword">仮<span class="kw hiddenword">船舶国籍証書</span></span>の交付を申請する場合、手数料納付書に所定額の<span class="kw hiddenword">収入印紙</span>を貼って納付します。</div>
+ </div>
+ <div class="below"><a class="xref" href="#law15">↔ 関連する法律条文へ</a><span class="tip">令和7年口述。</span></div>
+</section>
+<div class="footer"><strong>学習方針：</strong>船舶法は明治32年制定の文語体法令であり、海事代理士試験でも法令文に近い表現が出題されます。本ページは原文表記に慣れることと、現代語で制度趣旨を理解することの両方を目的としています。<br><strong>試験基準：</strong>令和8年試験は令和8年4月1日現在施行の法令等を基準とします。</div>
+</div>
+<script>
+function cycle(el){if(el.classList.contains('hiddenword')){el.classList.remove('hiddenword','redword')}else if(el.classList.contains('redword')){el.classList.remove('redword');el.classList.add('hiddenword')}else{el.classList.add('redword')}}
+document.querySelectorAll('.kw').forEach(el=>el.addEventListener('click',()=>cycle(el)));
+function allHidden(){document.querySelectorAll('.kw').forEach(el=>{el.classList.remove('redword');el.classList.add('hiddenword')})}
+function allVisible(){document.querySelectorAll('.kw').forEach(el=>el.classList.remove('hiddenword','redword'))}
+function setMode(m){document.body.className='show-'+m;document.querySelectorAll('.mode').forEach(x=>x.classList.remove('on'));document.getElementById(m==='old'?'mOld':m==='modern'?'mModern':'mBoth').classList.add('on')}
+</script></body></html>
